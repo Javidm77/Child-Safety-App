@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    tools:context=".LoginPage">
+    <ImageView
+        android:padding="20sp"
+        android:src="@drawable/protection"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/curve"
+        android:layout_margin="10dp"
+        app:hintTextColor="#fff"
+        android:textColorHint="#fff"
+        app:boxStrokeWidth="0dp"
+        android:padding="5dp"
+        app:boxBackgroundColor="@color/material_on_primary_emphasis_medium"
+        app:boxStrokeWidthFocused="0dp"
+         android:layout_height="wrap_content">
+        <EditText
+            android:hint="Email"
+            android:id="@+id/semail"
+            android:textColor="#fff"
+             android:backgroundTint="#4E4D4D"
+            android:paddingStart="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/curve"
+        android:layout_margin="10dp"
+        app:hintTextColor="#fff"
+        android:textColorHint="#fff"
+        app:boxStrokeWidth="0dp"
+        android:padding="5dp"
+        app:boxBackgroundColor="@color/material_on_primary_emphasis_medium"
+        app:boxStrokeWidthFocused="0dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#000"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Password"
+            android:backgroundTint="#4E4D4D"
+            android:inputType="textPassword"
+
+            android:textColor="#fff"
+            android:paddingStart="10dp"
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+    </com.google.android.material.textfield.TextInputLayout>
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="150dp"
+    android:background="@drawable/curve"
+    android:text="Login"
+    android:textColor="#fff"
+    android:id="@+id/login"
+    android:onClick="login"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:backgroundTint="#4E4D4D"
+    android:layout_height="50dp"
+    tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/click"
+        android:onClick="method"
+        android:text="@string/user"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

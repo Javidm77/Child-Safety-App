@@ -1,0 +1,36 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/drawable/curve.xml" value="0.1" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_add_children.xml" value="0.12" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_addcontacts.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_child.xml" value="0.14" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_children.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_login_page.xml" value="0.15" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_main.xml" value="0.13243243243243244" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_parent.xml" value="0.14" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_parent_home.xml" value="0.15" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_sign_up_page.xml" value="0.17" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_splash.xml" value="0.13243243243243244" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_splash2.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_view_calls.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/activity_view_child.xml" value="0.1" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/custom_layout.xml" value="0.2" />
+        <entry key="..\:/Users/ymts0578/AndroidStudioProjects/ChildSafety/app/src/main/res/layout/phone.xml" value="0.33" />
+        <entry key="..\:/Users/ymts0579/javaProjects/ChildSafety/app/src/main/res/layout/activity_add_children.xml" value="0.13243243243243244" />
+        <entry key="..\:/Users/ymts0579/javaProjects/ChildSafety/app/src/main/res/layout/activity_addcontacts.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/ymts0579/javaProjects/ChildSafety/app/src/main/res/layout/activity_child.xml" value="0.1" />
+        <entry key="..\:/Users/ymts0579/javaProjects/ChildSafety/app/src/main/res/layout/activity_sign_up_page.xml" value="0.13243243243243244" />
+        <entry key="..\:/Users/ymts0579/javaProjects/ChildSafety/app/src/main/res/layout/phone.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

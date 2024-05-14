@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#000"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".AddChildren">
+<com.google.android.material.textfield.TextInputLayout
+style="@style/inputlay"
+    android:layout_marginTop="50dp"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+  style="@style/inputedit"
+        android:id="@+id/cname"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputlay"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/inputedit"
+            android:hint="Mail-Id"
+            android:id="@+id/cmail"
+            android:inputType="textEmailAddress"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputlay"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/inputedit"
+            android:id="@+id/cpassword"
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputlay"
+        android:visibility="gone"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/inputedit"
+            android:hint="Mobile"
+            android:inputType="phone"
+            android:id="@+id/cmobile"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+<androidx.appcompat.widget.AppCompatButton
+    style="@style/btn"
+    android:id="@+id/ccreate"
+    android:text="Create"
+    />
+</LinearLayout>

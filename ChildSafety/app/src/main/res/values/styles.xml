@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#fff</item>
+    </style>
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">#000</item>
+    </style>
+<style name="inputlay">
+    <item name="android:textColorHint">#fff</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:background">@drawable/curve</item>
+    <item name="android:layout_marginStart">9dp</item>
+    <item name="android:layout_marginBottom">9dp</item>
+    <item name="android:layout_marginEnd">9dp</item>
+    <item name="boxStrokeWidth">0dp</item>
+    <item name="android:padding">5dp</item>
+    <item name="boxBackgroundColor">@color/material_on_primary_emphasis_medium</item>
+    <item name="boxStrokeWidthFocused">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+</style>
+    <style name="inputedit">
+        <item name="android:backgroundTint">#4E4D4D</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <style name="btn">
+        <item name="android:textColor">#fff</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:background">@drawable/curve</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:backgroundTint">#4E4D4D</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

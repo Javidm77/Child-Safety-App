@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".ParentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_height="175dp">
+<androidx.cardview.widget.CardView
+    android:layout_weight="0.5"
+    android:layout_width="0dp"
+    android:onClick="click"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    app:cardBackgroundColor="#4E4D4D"
+    android:id="@+id/chile"
+    app:cardCornerRadius="19dp"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:paddingTop="50dp"
+        android:tint="#CF74FD"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/motherandson"
+        tools:ignore="UseAppTint" />
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:paddingBottom="40dp"
+        android:text="Child Safety"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/profiel"
+            android:onClick="the"
+            app:cardBackgroundColor="#4E4D4D"
+            app:cardCornerRadius="19dp"
+            android:layout_height="match_parent"
+            tools:ignore="KeyboardInaccessibleWidget">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:paddingTop="50dp"
+                    android:tint="#44A606"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/profileuser"
+                    tools:ignore="UseAppTint" />
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:paddingBottom="40dp"
+                    android:text="Profile"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        app:cardBackgroundColor="#4E4D4D"
+        app:cardCornerRadius="19dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/card"
+        android:onClick="thed"
+        android:layout_height="170dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/shutdown" />
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:paddingBottom="40dp"
+                android:text="Log out"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".Addcontacts">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputlay"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:textColor="#fff"
+            android:maxLength="10"
+            style="@style/inputedit"
+            android:id="@+id/mobliec"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputlay"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:hint="Name"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:id="@+id/namec"
+            style="@style/inputedit"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/btn"
+        android:id="@+id/addcontact"
+        android:text="Add"
+        />
+
+
+
+</LinearLayout>
